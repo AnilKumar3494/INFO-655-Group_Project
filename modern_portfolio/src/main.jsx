@@ -7,6 +7,9 @@ import Nav from "./components/nav/Nav";
 import Experience from "./components/experience/Experience";
 import Talks from "./components/talks/Talks";
 import Footer from "./components/footer/Footer";
+import Contact from "./components/contact/Contact";
+import Projects from "./components/projects/Projects";
+import Services from "./components/services/Services";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,7 +17,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Nav />
     <About />
     <Experience />
+    <Projects />
+    <Services />
     <Talks />
+    <Contact />
     <Footer />
   </React.StrictMode>
 );
