@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <h1>This is the Home Page with a Nav Bar</h1>
+      <h1>This is the Home Page of Daniel Carey</h1>
     </>
   );
 };
