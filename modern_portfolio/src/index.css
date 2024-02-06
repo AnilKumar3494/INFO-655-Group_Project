@@ -116,3 +116,10 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+/* For Tablets - Medium Devices */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-ms);
+  }
+}
