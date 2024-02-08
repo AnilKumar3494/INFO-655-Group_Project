@@ -44,6 +44,7 @@ body {
   /* background-image: url(assets/bg-image.jpg);
   background-size: cover; */
 }
+
 h1,
 h2,
 h3,
@@ -55,13 +56,14 @@ h5 {
 h1 {
   font-size: 3rem;
 }
+
 .container {
   width: var(--container-width-ls);
   margin: 0 auto;
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 7rem;
 }
 
 section > h2,
@@ -82,6 +84,7 @@ section > h2 {
 a {
   color: var(--color-primary);
   transition: var(--transision);
+  text-decoration: none;
 }
 
 a:hover {
@@ -121,5 +124,16 @@ img {
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-ms);
+  }
+}
+
+/* For Mobile and small screens - Small Devices */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-ss);
+  }
+
+  section {
+    margin-top: 5rem;
   }
 }
