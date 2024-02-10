@@ -7,7 +7,7 @@ const Calltoaction = () => {
       <a className="btn" href={resumeLink}>
         My Resume
       </a>
-      <a className="btn btn-primary" href="#contact">
+      <a className="btn btn_primary" href="#contact">
         Get in Touch
       </a>
     </div>
