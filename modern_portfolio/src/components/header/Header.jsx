@@ -21,7 +21,7 @@ const Header = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % userName.names.length);
-    }, 1500); //
+    }, 1500);
 
     return () => clearInterval(intervalId);
   }, [userName.names.length]);
