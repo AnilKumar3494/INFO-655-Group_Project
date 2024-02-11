@@ -61,6 +61,8 @@ textarea:focus {
 .contact_section_main button {
   font-weight: bold;
   font-size: 0.9rem;
+
   background: var(--color-primary);
   color: black;
+
 }
