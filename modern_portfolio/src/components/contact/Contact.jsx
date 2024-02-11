@@ -37,7 +37,7 @@ const Contact = () => {
     {
       type: "email",
       name: "email",
-      placeholder: "example@domain.com",
+      placeholder: "e-mail: example@domain.com",
     },
   ];
 

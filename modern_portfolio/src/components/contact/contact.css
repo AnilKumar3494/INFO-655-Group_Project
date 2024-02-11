@@ -18,8 +18,12 @@
   border: 1px solid var(--color-primary-variant);
   padding: 1rem;
   margin-bottom: 0.5rem;
-}
 
+  transition: all 0.3s ease;
+}
+.contact_option:hover {
+  border: 1px solid var(--color-primary);
+}
 .contact_option .icon {
   font-size: 1.5rem;
 }
@@ -44,10 +48,13 @@ textarea {
   outline: none;
 
   resize: none;
+  transition: all 0.3s ease-in-out;
 }
 
 input:hover,
-input:focus {
+input:focus,
+textarea:hover,
+textarea:focus {
   border: 2px solid var(--color-primary);
 }
 
