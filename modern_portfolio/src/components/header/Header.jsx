@@ -45,7 +45,9 @@ const Header = () => {
           Scroll Down <FaArrowRight />
         </a>
 
-        <Sociallinks />
+        <div className="social_links_container">
+          <Sociallinks />
+        </div>
       </div>
     </header>
   );

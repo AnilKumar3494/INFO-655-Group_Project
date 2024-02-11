@@ -37,9 +37,9 @@ header {
 /* SOCIAL LINKS  */
 
 .social_links {
-  position: absolute;
+  position: fixed;
+  top: 1rem;
   left: 1rem;
-  bottom: 2rem;
 
   display: flex;
   flex-direction: column;
