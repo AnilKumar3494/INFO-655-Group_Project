@@ -43,17 +43,20 @@ const Contact = () => {
 
   //Front end
   return (
-    <section id="contact" className="contact_container_main">
+    <section id="contact" className="contact_container">
       <h4>Get in Touch</h4>
       <h2>Contact Me</h2>
       <div className="contact_section_main">
-        {/* Get in touch part Start
+        {/* Get in touch part Start */}
         <div className="contact_options">
           {contactOption.map((option, index) => (
             <article className="contact_option" key={index}>
-              <a href="">{option.icon}</a>
+              <div className="website">
+                <a className="icon" href="">
+                  {option.icon}
+                </a>
+              </div>
 
-              <p>{option.title}</p>
               <h5>
                 <a href={option.href}>
                   {index === 0 ? option.href.split(":")[1] : option.href}
@@ -62,7 +65,7 @@ const Contact = () => {
               <a href={option.href}>{option.message}</a>
             </article>
           ))}
-        </div> */}
+        </div>
 
         {/* Get in touch part END*/}
 
