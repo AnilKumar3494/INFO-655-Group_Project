@@ -4,40 +4,43 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutlineWeb } from "react-icons/md";
 
 const Sociallinks = () => {
+  const socialDetails = [
+    {
+      icon: <FaLinkedin />,
+      href: "#Link to Site",
+      title: "LinkedIn",
+    },
+    {
+      icon: <FaGithub />,
+      href: "#Link to Site",
+      title: "GitHub",
+    },
+    {
+      icon: <MdOutlineWeb />,
+      href: "#Link to Site",
+      title: "My Website",
+    },
+  ];
   return (
-<<<<<<< Updated upstream
     <div className="social_links">
-      <a href="#Linkedin" target="_blank">
-        <FaLinkedin />
-      </a>
-      <a href="#Linkedin" target="_blank">
-=======
-    <div className="social_links_container">
-      <div className="social_links">
-        {/* Dynamically updating values */}
-        {socialDetails.map((socialDetail, index) => (
-          <a
-            href={socialDetail.href}
-            key={index}
-            title={socialDetail.title}
-            target="_blank"
-          >
-            {socialDetail.icon}
-          </a>
-        ))}
+      {/* Dynamically updating values */}
+      {socialDetails.map((socialDetail, index) => (
+        <a
+          href={socialDetail.href}
+          key={index}
+          title={socialDetail.title}
+          target="_blank"
+        >
+          {socialDetail.icon}
+        </a>
+      ))}
 
-        {/* <a href="#Linkedin" target="_blank">
->>>>>>> Stashed changes
+      {/* <a href="#Linkedin" target="_blank">
         <FaGithub />
       </a>
       <a href="#Linkedin" target="_blank">
         <MdOutlineWeb />
-<<<<<<< Updated upstream
-      </a>
-=======
       </a> */}
-      </div>
->>>>>>> Stashed changes
     </div>
   );
 };
