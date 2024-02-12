@@ -46,7 +46,7 @@ const Contact = () => {
     <section id="contact" className="contact_container">
       <h4>Get in Touch</h4>
       <h2>Contact Me</h2>
-      <div className="contact_section_main">
+      <div id="contact_options" className="contact_section_main">
         {/* Get in touch part Start */}
         <div className="contact_options">
           {contactOption.map((option, index) => (
