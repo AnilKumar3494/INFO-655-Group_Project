@@ -1,5 +1,5 @@
 header {
-  border: 2px solid antiquewhite;
+  border-bottom: 2px solid antiquewhite;
   height: 90vh;
   padding-top: 4rem;
   overflow: hidden;
@@ -38,7 +38,7 @@ header {
 
 .social_links {
   position: fixed;
-  top: 1rem;
+  top: 2rem;
   left: 1rem;
 
   display: flex;

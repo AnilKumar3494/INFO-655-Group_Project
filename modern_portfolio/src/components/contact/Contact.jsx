@@ -10,19 +10,19 @@ const Contact = () => {
     {
       icon: <MdAttachEmail />,
       title: "e-mail",
-      href: "mailto:ak4448@drexel.edu",
+      href: "mailto: our email",
       message: "Send a message",
     },
     {
       icon: <FaGithubSquare />,
       title: "GitHub",
-      href: "https://github.com/AnilKumar3494",
+      href: "our GitHub URL",
       message: "Check my profile",
     },
     {
       icon: <FaLinkedin />,
       title: "LinkedIn",
-      href: "https://www.linkedin.com/in/anil-kumar-karapa/",
+      href: "our linkedin url",
       message: "Send a message",
     },
   ];
@@ -57,11 +57,11 @@ const Contact = () => {
                 </a>
               </div>
 
-              <h5>
-                <a href={option.href}>
-                  {index === 0 ? option.href.split(":")[1] : option.href}
-                </a>
-              </h5>
+              <a href={option.href}>
+                {index === 0 ? option.href.split(":")[1] : option.href}
+              </a>
+              <br />
+
               <a href={option.href}>{option.message}</a>
             </article>
           ))}
@@ -87,7 +87,7 @@ const Contact = () => {
             placeholder="Leave your thoughts"
           ></textarea>
           <button type="submit" className="btn btn_primary">
-            Send Message
+            Click to Send
           </button>
         </form>
       </div>
