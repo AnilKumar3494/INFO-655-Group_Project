@@ -1,7 +1,7 @@
 import React from "react";
 import "./experience.css";
 // import { FaCheckCircle } from "react-icon/bs";
-import { FaCheckCircle } from "react-icons/fa";
+// import { FaCheckCircle } from "react-icons/fa";
 import SkillsDisplay from "./SkillsDisplay";
 
 const Experience = () => {
@@ -22,7 +22,7 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience">
+    <section id="experience" className="experience">
       <h5>What skills I have</h5>
       <h2>My Experience</h2>
 
