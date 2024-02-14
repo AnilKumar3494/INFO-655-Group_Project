@@ -9,16 +9,17 @@ const Experience = () => {
     { skill: "HTML", level: "Experienced" },
     { skill: "CSS", level: "Experienced" },
     { skill: "JavaScript", level: "Experienced" },
+    { skill: "React", level: "Intermediate" },
     { skill: "Bootstrap", level: "Intermediate" },
     { skill: "Tailwind", level: "Basic" },
   ];
 
   const backendSkillsData = [
-    { skill: "PHP", level: "Experienced" },
-    { skill: "MySQL", level: "Experienced" },
-    { skill: "Python", level: "Experienced" },
-    { skill: "Node.js", level: "Experienced" },
-    { skill: "MongoDB", level: "Experienced" },
+    { skill: "MySQL", level: "Intermediate" },
+    { skill: "Python", level: "Intermediate" },
+    { skill: "Node.js", level: "Intermediate" },
+    { skill: "MongoDB", level: "Basic" },
+    { skill: "Express", level: "Basic" },
   ];
 
   return (
