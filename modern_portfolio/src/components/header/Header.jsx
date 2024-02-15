@@ -38,7 +38,7 @@ const Header = () => {
         <Calltoaction />
 
         <div className="our-imgs">
-          <img src={imgLinks} alt="our images" />
+          <img src={imgLinks} alt="Still finding professional pictures 😅" />
         </div>
 
         <a href="#contact" className="scroll_down">
