@@ -8,6 +8,7 @@ const Footer = () => {
 
   const footerLinks = [
     "My Experience",
+    "My Projects",
     "Get in Touch",
     "About Us",
     "Our Services",
