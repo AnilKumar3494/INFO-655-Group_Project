@@ -1,0 +1,40 @@
+.courosel_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.courosel_wrap {
+  border: 1px solid var(--color-primary);
+  width: 85%;
+  padding: 1rem;
+
+  position: relative;
+}
+
+.individual_talk {
+  /* border: 1px solid aquamarine; */
+  padding-inline: 1.4rem;
+}
+
+.slider_btn {
+  all: unset;
+  display: block;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  font-size: 2rem;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.slider_btn:hover {
+  background-color: rgb(75, 213, 255, 0.3);
+}
+
+.slider_btn > * {
+  stroke: white;
+  fill: #4bd5ff;
+}
