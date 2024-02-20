@@ -44,7 +44,9 @@ const CouroselSlider = ({ slideHeadings }) => {
         >
           <FaAngleRight />
         </button>
-        <a href={slideHeadings[talkIndex].url}>Know more</a>
+        <a href={slideHeadings[talkIndex].url} target="_blank">
+          Know more
+        </a>
       </div>
     </div>
   );

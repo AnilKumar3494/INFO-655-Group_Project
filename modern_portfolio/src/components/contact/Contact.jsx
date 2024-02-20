@@ -23,7 +23,7 @@ const Contact = () => {
       icon: <FaLinkedin />,
       title: "LinkedIn",
       href: "our linkedin url",
-      message: "Send a message",
+      message: "Know more!",
     },
   ];
 

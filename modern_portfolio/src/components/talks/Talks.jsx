@@ -8,17 +8,18 @@ const TalksArray = [
     title: "Git",
     content:
       " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, officiis.",
-    url: "www.google.com",
+    url: "#",
   },
   {
     title: "Hooks",
     content: "HOOKS: consectetur adipisicing elit. Recusandae, officiis.",
-    url: "www.google.com",
+    url: "#",
   },
   {
     title: "States",
-    content: "HOOKS: consectetur adipisicing elit. Recusandae, officiis.",
-    url: "www.google.com",
+    content:
+      "HOOKS: Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint sunt expedita? Iste doloremque blanditiis sint aperiam voluptatem libero impedit.",
+    url: "#",
   },
 ];
 
@@ -26,7 +27,8 @@ const Talks = () => {
   return (
     <div>
       <section className="courosel_main">
-        <h2>Talks</h2>
+        <h5>Things I am Learning</h5>
+        <h2>Concepts & Talks</h2>
         <CouroselSlider slideHeadings={TalksArray} />
       </section>
     </div>
