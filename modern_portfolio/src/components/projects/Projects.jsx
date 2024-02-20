@@ -3,18 +3,22 @@ import "./projects.css";
 import projectList from "./projectList";
 import ProjectBuilder from "./projectBuilder";
 
-
 function Projects() {
   return (
     <main>
       <section>
-        <h2><span>My Projects</span></h2>
-        <dl className="project                                          
-          ">{projectList.map(createEntry)}</dl>
+        <h2>
+          <span>My Projects</span>
+        </h2>
+        <dl
+          className="project                                          
+          "
+        >
+          {projectList.map(createEntry)}
+        </dl>
       </section>
-      
     </main>
-  )
+  );
 }
 
 function createEntry(demo) {
