@@ -12,8 +12,10 @@
 }
 
 .individual_talk {
-  /* border: 1px solid aquamarine; */
   padding-inline: 1.4rem;
+}
+.individual_talk h3 {
+  text-align: center;
 }
 
 .slider_btn {
