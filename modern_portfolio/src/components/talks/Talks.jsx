@@ -22,6 +22,12 @@ const TalksArray = [
       "STATE in REACT: Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint sunt expedita? Iste doloremque blanditiis sint aperiam voluptatem libero impedit.",
     url: "#",
   },
+  {
+    title: "JavaScripy",
+    content:
+      "JavaScript: Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint sunt expedita? Iste doloremque blanditiis sint aperiam voluptatem libero impedit.",
+    url: "#",
+  },
 ];
 
 const Talks = () => {
