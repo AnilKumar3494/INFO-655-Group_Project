@@ -7,18 +7,25 @@ const TalksArray = [
   {
     title: "Git",
     content:
-      " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, officiis.",
+      " Git - A version control ----- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quas iste delectus? Tempore, fugit minus!",
     url: "#",
   },
   {
     title: "Hooks",
-    content: "HOOKS: consectetur adipisicing elit. Recusandae, officiis.",
+    content:
+      "HOOKS: consectetur adipisicing elit. Recusandae, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis incidunt vitae eveniet saepe quisquam suscipit magni autem accusamus odio sapiente sit nobis tempore amet modi, libero voluptate facilis dolorem nemo.",
     url: "#",
   },
   {
     title: "States",
     content:
-      "HOOKS: Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint sunt expedita? Iste doloremque blanditiis sint aperiam voluptatem libero impedit.",
+      "STATE in REACT: Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint sunt expedita? Iste doloremque blanditiis sint aperiam voluptatem libero impedit.",
+    url: "#",
+  },
+  {
+    title: "JavaScripy",
+    content:
+      "JavaScript: Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sint sunt expedita? Iste doloremque blanditiis sint aperiam voluptatem libero impedit.",
     url: "#",
   },
 ];
