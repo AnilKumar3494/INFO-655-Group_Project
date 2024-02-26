@@ -7,6 +7,7 @@ import Sociallinks from "./Sociallinks";
 
 //Arrow down icon
 import { FaArrowRight } from "react-icons/fa";
+import Particlesbg from "../Particlesbg/Particlesbg";
 
 const Header = () => {
   //Add our images and then make it into a corousel
@@ -28,8 +29,8 @@ const Header = () => {
 
   return (
     <header>
-      <div className="container header_container">
-        <h5>Hello, we are</h5>
+      <Particlesbg />
+      <div className="container header_container header_content">
         <h1>{userName.names[currentIndex]}</h1>
         <h5 className="text-light">A Team of Engineers && Devs</h5>
 
@@ -38,7 +39,7 @@ const Header = () => {
         <Calltoaction />
 
         <div className="our-imgs">
-          <img src={imgLinks} alt="our images" />
+          <img src={imgLinks} alt="Still finding professional pictures 😅" />
         </div>
 
         <a href="#contact" className="scroll_down">
