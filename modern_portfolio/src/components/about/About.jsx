@@ -5,9 +5,13 @@ import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   const cardsData = [
-    { icon: <FiUsers />, title: 'Team', description: '4 Developers' },
-    { icon: <VscFolderLibrary />, title: 'Project', description: '5+ Completed' },
-    { icon: <FiUsers />, title: 'Team', description: '4 developers' }
+    { icon: <FiUsers />, title: "Team", description: "4 Developers" },
+    {
+      icon: <VscFolderLibrary />,
+      title: "Project",
+      description: "5+ Completed",
+    },
+    { icon: <FiUsers />, title: "Team", description: "4 developers" },
   ];
 
   return (
@@ -32,9 +36,10 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nesciunt vero a autem.
-            Tempora molestiae ducimus, quia atque eaque, reprehenderit at aliquid consequatur
-            deleniti iusto qui sunt ipsam sed expedita.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
+            nesciunt vero a autem. Tempora molestiae ducimus, quia atque eaque,
+            reprehenderit at aliquid consequatur deleniti iusto qui sunt ipsam
+            sed expedita.
           </p>
 
           <a href="#contact" className="btn btn-primary">
