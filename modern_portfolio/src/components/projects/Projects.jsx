@@ -6,7 +6,7 @@ import ProjectBuilder from "./projectBuilder";
 function Projects() {
   return (
     <main>
-      <section>
+      <section id="projects">
         <h2>
           <span>My Projects</span>
         </h2>

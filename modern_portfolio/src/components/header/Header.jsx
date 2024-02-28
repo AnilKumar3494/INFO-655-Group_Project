@@ -28,7 +28,7 @@ const Header = () => {
   }, [userName.names.length]);
 
   return (
-    <header>
+    <header id="header">
       <Particlesbg />
       <div className="container header_container header_content">
         <h1>{userName.names[currentIndex]}</h1>

@@ -33,7 +33,7 @@ const TalksArray = [
 const Talks = () => {
   return (
     <div>
-      <section className="courosel_main">
+      <section className="courosel_main" id="talks">
         <h5>Things I am Learning</h5>
         <h2>Concepts & Talks</h2>
         <CouroselSlider slideHeadings={TalksArray} />
