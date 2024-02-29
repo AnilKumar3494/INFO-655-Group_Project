@@ -17,11 +17,11 @@ const projectList = [
   },
   {
     id: 3,
-    image: '../src/assets/img3.png',
-    name: "Data Transformation",
-    link: "https://replit.com",
-    description:
-      "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
+      image: '../src/assets/img3.png',
+      name: "Notepad App",
+      link: "https://untimely-roasted-recursion-dunderthunder.replit.app/",
+      description:
+        "This website showcases a notepad application that was built using React."
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const projectList = [
     name: "Data Visualization",
     link: "https://codesandbox.io",
     description:
-      "Huge glasses, awkward smile and buck teeth. Used humorously or ironically for nerds or to express how smart you are. Stereotype of a nerd; a smart but funny-dressed person with social deficits."
+      "Huge glasses, awkward smile and buck teeth."
   }
 ];
 
