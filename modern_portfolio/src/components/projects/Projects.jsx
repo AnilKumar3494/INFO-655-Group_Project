@@ -10,12 +10,7 @@ function Projects() {
         <h2>
           <span>My Projects</span>
         </h2>
-        <dl
-          className="project                                          
-          "
-        >
-          {projectList.map(createEntry)}
-        </dl>
+        <dl className="project">{projectList.map(createEntry)}</dl>
       </section>
     </main>
   );

@@ -11,7 +11,7 @@ import ReactDOM from "react-dom/client";
 
 import "./index.css";
 import Header from "./components/header/Header";
-import About from "./components/about/About";
+// import About from "./components/about/About";
 import Nav from "./components/nav/Nav";
 import Experience from "./components/experience/Experience";
 import Talks from "./components/talks/Talks";

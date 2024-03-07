@@ -3,17 +3,19 @@ import "./projects.css";
 
 function projectBuilder(props) {
   return (
-    <div className="item">
+    <div className="project_container">
       <dt>
         <span className="image" role="img">
           <img src={props.image} />
         </span>
-        <span>{props.name}</span>
+        <h2>{props.name}</h2>
       </dt>
-      <button className="btn">
-        <a href={props.link}>Live Demo</a>
-      </button>
       <dd>{props.description}</dd>
+      <button className="btn_projects">
+        <a className="btn_projects" href={props.link}>
+          Live Demo
+        </a>
+      </button>
     </div>
   );
 }
