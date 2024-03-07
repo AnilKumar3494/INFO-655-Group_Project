@@ -25,7 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Header />
 
     {/* Wu */}
-    <About />
+    {/* <About /> */}
     <Experience />
 
     {/* Dan */}
