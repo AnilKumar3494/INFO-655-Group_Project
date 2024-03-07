@@ -1,197 +1,41 @@
-main {
-  :root {
-    --bg-color: #1f1f38;
-    --bg-variant-color: #2c2c6c;
-    --color-primary: #4bd5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
-    --color-white: #f2f2f2;
-    --color-light: rgba(255, 255, 255, 0.6);
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 
-    --container-width-ls: 75%;
-    --container-width-ms: 86%;
-    --container-width-ss: 98%;
+  flex-wrap: wrap;
+}
 
-    --transision: all 400ms ease-in;
-  }
+.project_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
 
-  /*body {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 400;
-      line-height: 1.666;
-      background: #c0d2d4;
-      background: #1f1f38;
-      color: #555;
-    }*/
+  flex: 0 0 45%;
+  padding: 0.6rem;
 
-  h2 span {
-    padding: 5px 15px;
-    color: #fff;
-    text-align: center;
-    margin-top: 4rem;
-    line-height: 1.2;
-  }
+  border: 1px solid var(--color-primary);
+}
 
-  .project {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 4rem auto;
-    max-width: 90%;
-  }
+img {
+  aspect-ratio: 16 / 9;
+  width: 400px;
 
-  .project > .item {
-    text-align: center;
-    max-width: 20rem;
-    margin-bottom: 3rem;
-    padding: 2rem;
-    border-radius: 3px;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
-    /*background-color: #fff;*/
-    transition: all 100ms ease-in-out;
-  }
+  object-fit: contain;
+}
 
-  .project > .term > dt {
-    margin-bottom: 1rem;
-  }
+.btn_projects {
+  background-color: var(--color-primary);
+  padding: 1rem;
 
-  dt {
-    color: #4bd5ff;
-    line-height: 1;
-  }
-
-  dt span {
-    font-size: 200%;
-    font-weight: 900;
-  }
-
-  .image {
-    margin: 0 auto 20px;
-    display: block;
-    font-size: 400%;
-  }
-
-  @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap");
-
-  /* setting up custom variables */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-    outline: none;
-    list-style: none;
-
-    color-scheme: dark light;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-  ::-webkit-scrollbar {
-    display: none;
-  }
-
-  body {
-    color: var(--color-white);
-    font-family: "Poppins", sans-serif;
-    background: var(--bg-color);
-    line-height: 1.6;
-
-    /* background-image: url(assets/bg-image.jpg);
-        background-size: cover; */
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    font-weight: 500;
-  }
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  .container {
-    width: var(--container-width-ls);
-    margin: 0 auto;
-  }
-
-  section {
-    margin-top: 7rem;
-  }
-
-  section > h2,
-  section > h4 {
-    text-align: center;
-    color: var(--color-light);
-  }
-
-  section > h2 {
-    color: var(--color-primary);
-    margin-bottom: 3rem;
-  }
-
-  .text-light {
-    color: var(--color-light);
-  }
-
-  a {
-    color: var(--color-primary);
-    transition: var(--transision);
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: var(--color-white);
-  }
-
-  .btn {
-    width: max-content;
-    display: inline-block;
-
-    color: var(--color-primary);
-    font-weight: 400;
-
-    padding: 0.75rem 1.25rem;
-    border-radius: 0.3rem;
-    border: 1px solid var(--color-primary);
-
-    cursor: pointer;
-    transition: var(--transision);
-  }
-
-  .btn:hover {
-    border: 1px solid var(--color-primary);
-  }
-
-  .btn_primary {
-    background: var(--color-primary);
-    color: var(--bg-color);
-  }
-
-  img {
-    display: block;
-    width: 90%;
-    object-fit: cover;
-  }
-
-  /* For Tablets - Medium Devices */
-  @media screen and (max-width: 1024px) {
-    .container {
-      width: var(--container-width-ms);
-    }
-  }
-
-  /* For Mobile and small screens - Small Devices */
-  @media screen and (max-width: 600px) {
-    .container {
-      width: var(--container-width-ss);
-    }
-
-    section {
-      margin-top: 5rem;
-    }
-  }
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
 }

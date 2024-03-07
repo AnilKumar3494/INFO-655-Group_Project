@@ -81,16 +81,10 @@ header {
 
 /* For Tablets - Medium Devices */
 @media screen and (max-width: 1024px) {
-  header {
-    height: 65vh;
-  }
 }
 
 /* For Mobile and small screens - Small Devices */
 @media screen and (max-width: 600px) {
-  header {
-    height: 95vh;
-  }
   .social_links,
   .scroll_down {
     display: none;
