@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import TeamImg from '../../assets/team.png'
 import { FiUsers } from "react-icons/fi";
 import { TfiBlackboard } from "react-icons/tfi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -18,10 +19,10 @@ const About = () => {
       <h4>Get to Know</h4>
       <h2>About Us</h2>
 
-      <div className="container about_container">
+      <div className="about_container">
         <div className="about_us">
           <div className="about_us-image">
-            <img src={imgLinks} alt="Our image" />
+            <img src={TeamImg} alt="Our image" />
           </div>
         </div>
 
@@ -36,7 +37,6 @@ const About = () => {
             ))}
           </div>
 
-          <div className="about_content">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
               nesciunt vero a autem. Tempora molestiae ducimus, quia atque eaque,
@@ -47,7 +47,6 @@ const About = () => {
             <a href="#contact" className="btn btn-primary">
               Let's Talk!
             </a>
-          </div>
         </div>
       </div>
     </section>
