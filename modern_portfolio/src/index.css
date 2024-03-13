@@ -40,9 +40,6 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--bg-color);
   line-height: 1.6;
-
-  /* background-image: url(assets/bg-image.jpg);
-  background-size: cover; */
 }
 
 h1,
@@ -54,7 +51,7 @@ h5 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: clamp(2.5rem);
 }
 
 .container {

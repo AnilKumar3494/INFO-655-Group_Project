@@ -1,105 +1,111 @@
 .about_container {
-    display: grid;
-    grid-template-columns: 45% 50%;
-    gap: 3rem;
+  display: grid;
+  grid-template-columns: 45% 50%;
+  gap: 3rem;
 }
 
 .about_us {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    border-radius: 2rem;
-    overflow: hidden;
+  border-radius: 2rem;
+  overflow: hidden;
 }
 
 .about_us-image {
-    transform: scale(2.3);
+  transform: scale(2.3);
 }
 
 .about_cards {
-    display: grid;
-    grid-template-columns: repeat(3, 0.5fr);
-    gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  gap: 1.5rem;
 }
 
 .about_card {
-    background: var(--bg-variant-color);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
-    transition: var(--transition);
+  background: var(--bg-variant-color);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
 }
 
 .about_card:hover {
-    background: transparent;
-    background-color: var(--color-primary-variant);
-    cursor: default;
+  background: transparent;
+  background-color: var(--color-primary-variant);
+  cursor: default;
 }
 
 .about_icon {
-    color: var(--);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .about_card > h5 {
-    font-size: 1rem;
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
 .about_card small {
-    font-size: 0.9rem;
-    color: var(--color-light);
+  font-size: 0.9rem;
+  color: var(--color-light);
 }
 
 .about_content > p {
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
+  font-size: clamp(0.7rem, 5vw, 1.2rem);
 }
 
 /* ----- For Tablets - Medium Devices ----- */
 @media screen and (max-width: 1024px) {
-    .about_container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        margin: 0 2rem;
-    }
-
-    .about_us {
-        margin: 0 auto;
-
-        box-sizing: border-box;
-        flex-grow: 0;
-    }
-
-    .about_us-image {
-        transform: scale(2);
-    }
-
-    .about_content {
-        margin: 2rem 2rem;
-    }
+  .about_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 0 2rem;
   }
-  
-  /* ----- For small screens - Small Devices ----- */
-  @media screen and (max-width: 600px) {
-    .about_us {
-        width: 100%;
-    }
 
-    .about_us-image {
-        transform: scale(1.8);
-    }
+  .about_us {
+    margin: 0 auto;
 
-    .about_cards {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .about_card {
-        padding: 1rem;
-    }
-
+    box-sizing: border-box;
+    flex-grow: 0;
   }
+
+  .about_us-image {
+    transform: scale(2);
+  }
+
+  .about_content {
+    margin: 2rem 2rem;
+  }
+}
+
+/* ----- For small screens - Small Devices ----- */
+@media screen and (max-width: 600px) {
+  .about_us {
+    width: 100%;
+  }
+
+  .about_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 0 0.4rem;
+  }
+
+  .about_us-image {
+    transform: scale(1.8);
+  }
+
+  .about_cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_card {
+    padding: 0.3rem;
+  }
+}

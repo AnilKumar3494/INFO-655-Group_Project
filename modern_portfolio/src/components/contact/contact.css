@@ -64,5 +64,14 @@ textarea:focus {
 
   background: var(--color-primary);
   color: black;
+}
 
+/* For Mobile and small screens - Small Devices */
+@media screen and (max-width: 600px) {
+  .contact_option {
+    display: none;
+  }
+  form {
+    flex: 0 0 95%;
+  }
 }
