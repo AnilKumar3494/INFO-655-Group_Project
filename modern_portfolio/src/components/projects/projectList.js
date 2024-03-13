@@ -17,7 +17,7 @@ const projectList = [
   },
   {
     id: 3,
-    image: 'https://play-lh.googleusercontent.com/7Y8exFSlMkWxM4nF-e8jTGltyD5b20UCZ-QaSJZ-7A4S5yfvLb3jWxrK_0FIe53p7_E',
+    image: 'https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/GettyImages-1206008726_530271_rhxjqd.jpg',
     name: "Notepad App",
     link: "https://untimely-roasted-recursion-dunderthunder.replit.app/",
     description:
