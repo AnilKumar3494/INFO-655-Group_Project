@@ -70,13 +70,17 @@ const Contact = () => {
         {/* Get in touch part END*/}
 
         {/* Form Start */}
-        <form action="">
+        <form
+          action="https://formsubmit.co/karapaanilkumar3494@gmail.com"
+          method="POST"
+        >
           {formOptions.map((formOption, index) => (
             <div className="inputs_container">
               <input
                 key={index}
                 type={formOption.type}
                 placeholder={formOption.placeholder}
+                name={formOption.name}
                 required
               />
             </div>
