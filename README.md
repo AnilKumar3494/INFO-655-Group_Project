@@ -12,6 +12,8 @@ Project Members: Anil Kumar, Daniel Carey, Musa Ceesay, Yu-Wei Wu
 - We used TS Particles in the Homepage component to provide a dynamic visual experience when the portfolio is launched
 - We created the interactive design of the website using React hooks that won't need to be re-configured to maintain the same user interface
 - Our project utilized CSS variables which makes it very easy for the color scheme to be customized
+- Automated deployment process utilizing Node.JS
+- Automated SMTP to send emails to users
 
 # How to Run/Deploy the Project
 
@@ -39,3 +41,11 @@ Dynamic and Interactive Resume:
 Online Presence for Networking and Career Advancement:
 - Users can utilize the portfolio website as a tool for networking with potential employers, clients, or collaborators through the LinkedIn and GitHub links.
 - The website facilitates communication through the Contact section, allowing visitors to reach out for inquiries or collaborations.
+
+  #Potential Updates
+
+  - Automated data entry using a JSON file to customize website links and contact information
+  - Authentication process for SMTP to provide secure authentication process before emails are sent
+  - Add functionality for blog content to be included in the portfolio
+  - Explore a process to automate generating a resume in pdf format that users can download
+  - Our team experienced "known" issues deploying our project on Git Hub Pages. There may more user-friendly options available for deployment such as Netlify 
