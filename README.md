@@ -42,7 +42,7 @@ Online Presence for Networking and Career Advancement:
 - Users can utilize the portfolio website as a tool for networking with potential employers, clients, or collaborators through the LinkedIn and GitHub links.
 - The website facilitates communication through the Contact section, allowing visitors to reach out for inquiries or collaborations.
 
-#Potential Updates
+# Potential Updates
 
   - Automated data entry using a JSON file to customize website links and contact information
   - Authentication process for SMTP to provide secure authentication process before emails are sent
