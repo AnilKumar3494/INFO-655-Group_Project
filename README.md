@@ -1,8 +1,17 @@
 # INFO-655-Group Project Description
-Our project is a comprehensive portfolio website that serves as a dynamic and interactive resume for job seekers to showcase their skills and experiences.
+Our React project is a comprehensive portfolio website that serves as a template for users to build a dynamic and interactive professional portfolio. Job seekers with little or no coding experience can use our project
+to showcase their skills and experiences.
 It provides a visually appealing platform for users to establish an online presence for networking and career advancement.
 
 Project Members: Anil Kumar, Daniel Carey, Musa Ceesay, Yu-Wei Wu
+
+# Project Features
+
+- We chose Vite JS as the front-end framework for our React project because it has optimized performance in comparison to a create-react-app project. Unlike other frameworks with optimized performance such as Remix or
+  Next, Vite does not require advanced Typescript knowledge to configure.
+- We used TS Particles in the Homepage component to provide a dynamic visual experience when the portfolio is launched
+- We created the interactive design of the website using React hooks that won't need to be re-configured to maintain the same user interface
+- Our project utilized CSS variables which makes it very easy for the color scheme to be customized
 
 # How to Run/Deploy the Project
 
@@ -28,5 +37,5 @@ Dynamic and Interactive Resume:
 - The portfolio provides a visually appealing format to present work history, projects, and services, enhancing user engagement.
 
 Online Presence for Networking and Career Advancement:
-- Users can utilize the portfolio website as a tool for networking with potential employers, clients, or collaborators.
+- Users can utilize the portfolio website as a tool for networking with potential employers, clients, or collaborators through the LinkedIn and GitHub links.
 - The website facilitates communication through the Contact section, allowing visitors to reach out for inquiries or collaborations.
