@@ -22,10 +22,10 @@ Profile for Job Search and Skill Showcase:
 - Users can create a profile showcasing their qualifications, experiences, and accomplishments.
 - They can customize their portfolio to highlight specific skills relevant to job opportunities.
 
-- Dynamic and Interactive Resume:
-Users can navigate through various sections such as About, Experience, Projects, Services, Talks, and Contact to explore the owner's background and offerings.
-The portfolio provides a visually appealing format to present work history, projects, and services, enhancing user engagement.
+Dynamic and Interactive Resume:
+- Users can navigate through various sections such as About, Experience, Projects, Services, Talks, and Contact to explore the owner's background and offerings.
+- The portfolio provides a visually appealing format to present work history, projects, and services, enhancing user engagement.
 
-- Online Presence for Networking and Career Advancement:
-  Users can utilize the portfolio website as a tool for networking with potential employers, clients, or collaborators.
-  The website facilitates communication through the Contact section, allowing visitors to reach out for inquiries or collaborations.
+Online Presence for Networking and Career Advancement:
+- Users can utilize the portfolio website as a tool for networking with potential employers, clients, or collaborators.
+- The website facilitates communication through the Contact section, allowing visitors to reach out for inquiries or collaborations.
