@@ -20,7 +20,6 @@ const Footer = () => {
         <footer className="footerWrapper">
             <hr className="gradient"/>
             <div className="footer-content">
-                <div className="footer-heading">React Portfolio</div>
 
                 {/* populating footer links dynamically */}
                 {footerLinks.map((link, index) => (
