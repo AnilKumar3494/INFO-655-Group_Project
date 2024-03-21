@@ -1,0 +1,44 @@
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  flex-wrap: wrap;
+}
+
+.projects_section {
+  padding: 0.5rem;
+}
+
+.project_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+
+  flex: 0 0 45%;
+  padding: 0.6rem;
+
+  border: 1px solid var(--color-primary);
+}
+
+img {
+  aspect-ratio: 16 / 9;
+  width: 350px;
+  object-fit: cover;
+}
+
+.btn_projects {
+  background-color: var(--color-primary);
+  padding: 1rem;
+
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
